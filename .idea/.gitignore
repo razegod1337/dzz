@@ -1,9 +1,3 @@
-
-/shelf/
-/workspace.xml
-/httpRequests/
-/dataSources/
-/dataSources.local.xml
-/out
 /.idea
+/out
 /dz2.iml
