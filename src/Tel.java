@@ -1,17 +1,17 @@
 public class Tel {
     public static void main(String[] args) {
-        int balans = 100;
-        int res;
-        int popolnenue = 1100;
+        int balance = 100;
+        int result;
+        int replenishment = 1100;
         int bonus;
-        if (popolnenue > 1000) {
-            bonus = popolnenue / 100;
-            res = popolnenue + balans + bonus;
-            System.out.println("Ваш баланс состовляет: " + res + " Бонусов начислено " + bonus);
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
+            result = replenishment + balance + bonus;
+            System.out.println("Ваш баланс состовляет: " + result + " Бонусов начислено " + bonus);
         } else {
-            res = balans + popolnenue;
+            result = balance + replenishment;
 
-            System.out.println("Ваш баланс состовляет " + res);
+            System.out.println("Ваш баланс состовляет " + result);
 
         }
 
